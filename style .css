@@ -1,0 +1,138 @@
+/* 0C2532 345869 3A8998 B4CDC8 E9EEE6 */
+#d{
+    color: #0C2532;
+    color: #345869;
+    color: #3A8998;
+    color: #B4CDC8;
+    color: #E9EEE6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0C2532;
+    color: #E9EEE6;
+    font-size: 17px;
+}
+
+header{
+    padding: 20px;
+    border-bottom: 5px solid #E9EEE6;
+    border-top: 5px solid #E9EEE6;
+}
+
+main{
+    padding: 40px 0px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 5px solid #E9EEE6;
+    border-top: 5px solid #E9EEE6;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.footerBlock{
+    font-size: 18px;
+}
+
+.footerBlock p{
+    margin: 5px;
+}
+
+.footerBlock a{
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav span{
+    margin: 20px;
+    font-size: 70px;
+    text-decoration: none;
+    background-color: #0C2532;
+}
+
+nav a{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #345869;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+nav a:hover{
+    box-shadow: 10px 10px 0 0 #3A8998;
+    transition: 0.2s linear;
+}
+
+.interactionSection{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imgBlockInteract{
+    display: inline-block;
+    width: 40%;
+}
+
+.interactionSection img{
+    width: 100%;
+    height: auto;
+}
+
+.textBlockInteract{
+    width: 57%;
+    display: inline-block;
+}
+
+#gameHistory h1{
+    font-size: 40px;
+    margin: 20px;
+}
+
+#gameHistory{
+    text-align: center;
+    /* padding: 50px; */
+}
+
+#historyImg{
+    width: 100%;
+    height: auto;
+}
+
+.m{
+    color: greenyellow;
+}
+
+.m:hover{
+    color: red;
+    transition: 0.2 linear;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+.b:hover{
+    color: red;
+    transition: 0.2s linear;
+}
